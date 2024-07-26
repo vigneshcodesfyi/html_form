@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+form{
+background-color: rgb(32, 172, 170);
+color: white;
+    border: 2px solid black;
+    width: max-content;
+}
+
+.button{
+
+    text-align: center;
+}
+#button{
+
+    padding: 5px;
+    width: 90px;
+}
+
+.input{
+    margin: 10px;
+    padding: 2px;
+}
+
+#firstname, #lastname , #phonenumber, #altnumber, #email {
+    height: 20px;
+    width: 200px;
+} 
+#Studies{
+padding: 10px;
+
+}
+textarea{
+
+    padding: 10px;
+}
+
+.checkbox{
+    margin-right: 10px;
+
+
+}
+    </style>
+</head>
+<body>
+    
+
+<form action="index1.html" target="_self">
+<div class="input">
+<label for="firstname">Firstname :  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<input type="text" name="" id="firstname" placeholder="Enter your first name" autofocus required>
+</div>
+<div class="input">  
+<label for="lastname">Lastname :  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<input type="text" name="" id="lastname"  placeholder="Enter your last name" required>
+</div>
+<div  class="input">
+<label for="phonenumber">Mobile Number :  &nbsp; </label>
+<input type="number" name="" id="phonenumber" >
+</div>
+<div  class="input">
+<label for="altnumber">Emergency No :  &nbsp; &nbsp;  </label>
+<input type="number" name="" id="altnumber">
+</div>
+<div  class="input">
+<label for="email">Email Address:  &nbsp; &nbsp; &nbsp;</label>
+<input type="email" name="" id="email" >
+</div>
+<div  class="input">
+<label for="dob">Date Of Birth&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+<input type="date" name="dob" id="dob" required>
+</div>
+<div  class="input">
+<label for="Studies">Degree earned :&nbsp; &nbsp; &nbsp;</label>
+<select name="degree" id="Studies" >
+    <option value="Engineering"> Engineering</option>
+    <option value="Arts">Arts & science</option>
+</select>
+
+</div>
+<div  class="input">
+    <label for="gender">Gender  &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;</label>
+<input type="radio" name="Gender" id="Gender" value="Male" >Male
+<input type="radio" name="Gender" id="Gender" value="Female">Female
+<input type="radio" name="Gender" id="Gender" value="Others">Others
+</div>
+<div  class="input">
+    <label for="phychallenged">Are you physically challenged ?</label>
+<input type="radio" name="phychallenged" id="phychallenged"  value="Yes">Yes
+<input type="radio" name="phychallenged" id="phychallenged" value="No">No
+
+</div>
+
+<div  class="input">
+    <label for="average">Skill Level (0-100)</label>
+<input type="range" name="average" id="average"  value="range">
+
+</div>
+
+<div  class="input">
+    <label for="favcolor">Choose your favourite color :  &nbsp;&nbsp; </label>
+<input type="color" name="favcolor" id="favcolor" >
+
+</div>
+
+
+<div  class="input">
+    <div class="checkbox">
+<label for="favhobby">  Pick Your two favourite hobbies :</label>
+
+<input type="checkbox" name="favhobby" id="favhobby" value="Cricket" >Cricket
+
+    <input type="checkbox" name="favhobby" id="favhobby" value="Reading Books" >Reading Books
+
+    <input type="checkbox" name="favhobby" id="favhobby"  value="Music">Music
+
+    <input type="checkbox" name="favhobby" id="favhobby" value="Computer Games">Computer Games
+
+</div>
+
+</div>
+
+
+<div  class="input">
+    <label for="file">Upload Resume :  &nbsp;&nbsp; </label>
+<input type="file" name="file" id="file" >
+
+</div>
+
+<label for=""> &nbsp; &nbsp;     Address for contact :</label>
+
+<div  class="input">
+
+<textarea rows="5" cols="50" required>
+
+</textarea>
+</div>
+
+<div  class="input button">
+    <label for="button"> </label>
+<input type="submit" name="button" id="button" value="Submit" >
+
+</div>
+
+    </form>
+</body>
+</html>
